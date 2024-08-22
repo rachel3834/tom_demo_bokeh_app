@@ -1,0 +1,12 @@
+{% extends 'tom_common/base.html' %}
+{% load bootstrap4 targets_extras dataproduct_extras %}
+{% block title %}Targets{% endblock %}
+{% block content %}
+      <h1>Demonstration Bokeh graph and table</h1>
+      {{bokeh_div| safe}}
+   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-3.5.1.min.js"></script>
+   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.5.1.min.js"></script>
+   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-3.5.1.min.js"></script>
+   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-api-3.5.1.min.js"></script>
+   {{bokeh_script| safe}}
+{% endblock %}
