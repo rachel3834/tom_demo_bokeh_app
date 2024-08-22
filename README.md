@@ -1,4 +1,4 @@
-# tom_demo_bokeh_app
+# TOM Demo Bokeh App
 Demonstration application of Bokeh apps used in a TOM system
 
 This is a demonstration of how a Bokeh plotting and tabulation app can be embedded
